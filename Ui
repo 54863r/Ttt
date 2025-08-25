@@ -1,0 +1,36 @@
+local a a={cache={}, load=function(b)if not a.cache[b]then a.cache[b]={c=a[b]()}end return a.cache[b].c end}do function a.a()
+
+
+
+
+
+local b=game:GetService"RunService"local c=
+b.Heartbeat
+local d=game:GetService"UserInputService"
+local e=game:GetService"TweenService"
+
+local f=loadstring(game:HttpGetAsync"https://raw.githubusercontent.com/Footagesus/Icons/main/Main.lua")()
+f.SetIconsType"lucide"
+
+local g={
+Font="rbxassetid://12187365364",
+CanDraggable=true,
+Theme=nil,
+Themes=nil,
+WindUI=nil,
+Signals={},
+Objects={},
+FontObjects={},
+Request=http_request or(syn and syn.request)or request,
+DefaultProperties={
+ScreenGui={
+ResetOnSpawn=false,
+ZIndexBehavior="Sibling",
+},
+CanvasGroup={
+BorderSizePixel=0,
+BackgroundColor3=Color3.new(1,1,1),
+},
+Frame={
+BorderSizePixel=0,
+BackgroundColor3=Color3.new(1,1,1),
