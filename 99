@@ -1,0 +1,32 @@
+local Tab = Window:Tab({
+    Title = "99夜",
+    Icon = "code",
+    Locked = false,
+})
+
+local Button = Tab:Button({
+    Title = "二狗子99夜",
+    Desc = "",
+    Locked = false,
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gycgchgyfytdttr/shenqin/refs/heads/main/99day.lua"))()
+    end
+})
+
+local Button = Tab:Button({
+    Title = "不知名99夜脚本",
+    Desc = "",
+    Locked = false,
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LinuxDevBr/99-Nights-In-the-Forest/refs/heads/main/Script.txt"))()
+    end
+})
+
+local Button = Tab:Button({
+    Title = "也不知名",
+    Desc = "",
+    Locked = false,
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Iliankytb/Iliankytb/main/Best99NightsInTheForest"))()
+    end
+})
