@@ -1,0 +1,32 @@
+local Tab = Window:Tab({
+    Title = "知名脚本",
+    Icon = "code",
+    Locked = false,
+})
+
+local Button = Tab:Button({
+    Title = "xa",
+    Desc = "",
+    Locked = false,
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.gitcode.com/Xingtaiduan/Scripts/raw/main/Loader.lua"))()
+    end
+})
+
+local Button = Tab:Button({
+    Title = "皮脚本",
+    Desc = "",
+    Locked = false,
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xiaopi77/xiaopi77/main/QQ1002100032-Roblox-Pi-script.lua"))()
+    end
+})
+
+local Button = Tab:Button({
+    Title = "霜溺",
+    Desc = "",
+    Locked = false,
+    Callback = function()
+    loadstring(game:loadstring(game:HttpGet("https://raw.githubusercontent.com/ShenJiaoBen/ShenJiaoBen/main/King-------------Script.txt"))()
+    end
+})
