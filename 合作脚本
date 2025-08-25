@@ -1,0 +1,41 @@
+local Tab = Window:Tab({
+    Title = "合作商的脚本",
+    Icon = "code",
+    Locked = false,
+})
+
+local Button = Tab:Button({
+    Title = "雪花脚本",
+    Desc = "脚本由奶龙.天制作",
+    Locked = false,
+    Callback = function()
+    getgenv().apple = "雪花:810344337"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/54863r/Ui/refs/heads/main/Ui"))()
+    end
+})
+
+local Button = Tab:Button({
+    Title = "FIN脚本",
+    Desc = "脚本由FIN制作",
+    Locked = false,
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/finendss/qq-352602248/refs/heads/main/xinqing"))()
+    end
+})
+
+local Button = Tab:Button({
+    Title = "黄某脚本",
+    Desc = "脚本屑黄某由制作",
+    Locked = false,
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xiaokong6/x1/refs/heads/main/黄某脚本加载器"))()
+    end
+})
+local Button = Tab:Button({
+    Title = "Z脚本",
+    Desc = "脚本由Zi-o制作",
+    Locked = false,
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZIONPCE/raw/refs/heads/main/ZiO.lua"))()
+    end
+})
